@@ -1,0 +1,29 @@
+@import './variables';
+div {
+    border-style: solid;
+  border-radius: 8px;  
+  border-color: black;
+  border-width: 2px;
+  color: white;
+}
+
+#box1{
+    background: $box1;
+    height: 100px;
+    width: 100px;;
+}
+#box2{
+    background: $box2;
+    height: 200px;
+    width: 200px;;
+}
+#box3{
+    background: $box3;
+    height: 250px;
+    width: 250px;;
+}
+#box4{
+    background: $box4;
+    height: 50px;
+    width: 50px;;
+}

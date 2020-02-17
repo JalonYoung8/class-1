@@ -1,0 +1,10 @@
+@import './variables';
+*{
+    margin: 10px;
+    background: $klein;
+}
+body {
+    background: $bg2;
+    padding: 10px;
+    color: white;
+}

@@ -1,0 +1,83 @@
+*{
+  background: #6368a0;
+}
+
+#grid {
+  display: grid;
+  grid-template-areas: 
+    "header header header header"
+    "content content content content"
+    "contact contact  contact faq"
+    "b1 b2 b3 b3"
+    "l3 l3 c1 c2"
+    "l3 l3 d2 d2"
+    "footer footer footer footer";
+  grid-gap: 50px;
+}
+
+.header{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: header;
+}
+
+.content{
+  background: #eb2727;
+  padding: 100px;
+  grid-area: content;
+}
+
+.contact{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: contact;
+}
+
+.faq{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: faq;
+}
+
+.b1{
+  background: #eb2727;
+  padding: 20px;
+  left: 205px;
+  grid-area: b1;
+}
+.b2{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: b2;
+}
+.b3{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: b3;
+}
+.l3{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: l3;
+}
+.c1{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: c1;
+}
+.c2{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: c2;
+}
+.d2{
+  background: #eb2727;
+  padding: 20px;
+  grid-area: d2;
+}
+
+.footer {
+  background: #eb2727;
+  padding: 40px;
+  grid-area: footer;
+}

@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+}
+
+.seal{
+  height: 100px;
+  width: 100px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #ffca29;
+  border-radius: 100px;
+
+}
+
+.hole{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.seals{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  display: flex;
+    flex-direction: row;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.item3, .item4, .item2{
+ align-self: center; 
+}
+
+.item5{
+  align-self: flex-end
+}
+
+.holes{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 95;
+}
+.hole51{
+  left: 0;
+  top: 0;
+}
+
+.hole52{
+  left: 100px;
+  top: 200px;
+}
+
+.hole53{
+  left: 200px;
+  top: 200px;
+}
+
+.hole54{
+  left: 300px;
+  top: 200px;
+}
+
+.hole55{
+  left: 400px;
+  top: 400px;
+}
+
+.seals5{
+
+}

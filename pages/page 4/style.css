@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+}
+
+.seal{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffca29;
+  border-radius: 100px;
+
+}
+
+.item1{
+  align-self: flex-start;
+}
+
+.item3{
+ align-self: flex-end; 
+}
+
+.hole{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.seals{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+
+
+.holes{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 95;
+}
+
+.hole41{
+  left: 32.5px;
+  top: 0;
+}
+
+.hole42{
+  left: 200px;
+  top: 0;
+}
+
+.hole43{
+  left: 367px;
+  bottom: 0;
+}
+
+.seals4{

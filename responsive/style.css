@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+}
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+footer{
+  line-height: 100px;
+  height: 300px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav > .menu{
+  display: none;
+}
+
+.nav > .hello{
+  display: block;
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.box2{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.box3{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+@media screen and (min-width: 400px) {
+  footer{
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .box{
+    width: 200px;
+    border-radius: 8px;
+  }
+  .box2{
+    width: 200px;
+    border-radius: 8px;
+  }
+  .box3{
+    width: 200px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .nav > span {text-align: right}
+  .nav > .hello {display: none;}
+  .nav > .menu {display: block;}
+  footer {text-align: left}
+}
+
+@media screen and (min-width: 1080px) {
+  .box-container{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } 
+  .box {width: 100px; height: 100px;}
+  .box2 {width: 100px; height: 100px;}
+  .box3 {width: 100px; height: 100px;}
+}
